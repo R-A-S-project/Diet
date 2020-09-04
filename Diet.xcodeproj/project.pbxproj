@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08AAFD4E24FF697500550A2F /* TabVarcontroller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD4D24FF697500550A2F /* TabVarcontroller.storyboard */; };
-		08AAFD5024FF699200550A2F /* Main0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD4F24FF699200550A2F /* Main0.storyboard */; };
+		08AAFD5024FF699200550A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD4F24FF699200550A2F /* Main.storyboard */; };
 		08AAFD5224FF699900550A2F /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD5124FF699900550A2F /* Main1.storyboard */; };
 		08AAFD5424FF69A400550A2F /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD5324FF69A400550A2F /* Main2.storyboard */; };
 		08AAFD5624FF6AE600550A2F /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAFD5524FF6AE600550A2F /* ViewController0.swift */; };
@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		08AAFD4D24FF697500550A2F /* TabVarcontroller.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabVarcontroller.storyboard; sourceTree = "<group>"; };
-		08AAFD4F24FF699200550A2F /* Main0.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main0.storyboard; sourceTree = "<group>"; };
+		08AAFD4F24FF699200550A2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		08AAFD5124FF699900550A2F /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
 		08AAFD5324FF69A400550A2F /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		08AAFD5524FF6AE600550A2F /* ViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				08AAFD5B24FF6AFB00550A2F /* ViewController3.swift */,
 				7E8CD9DF2501F39F004B7D3F /* ViewController4.swift */,
 				7E8CD9E52501F438004B7D3F /* ViewController5.swift */,
-				08AAFD4F24FF699200550A2F /* Main0.storyboard */,
+				08AAFD4F24FF699200550A2F /* Main.storyboard */,
 				08AAFD4D24FF697500550A2F /* TabVarcontroller.storyboard */,
 				08AAFD5124FF699900550A2F /* Main1.storyboard */,
 				08AAFD5324FF69A400550A2F /* Main2.storyboard */,
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8CD9D824FF6095004B7D3F /* LaunchScreen.storyboard in Resources */,
-				08AAFD5024FF699200550A2F /* Main0.storyboard in Resources */,
+				08AAFD5024FF699200550A2F /* Main.storyboard in Resources */,
 				08AAFD5424FF69A400550A2F /* Main2.storyboard in Resources */,
 				7E8CD9D524FF6095004B7D3F /* Assets.xcassets in Resources */,
 				08AAFD4E24FF697500550A2F /* TabVarcontroller.storyboard in Resources */,
