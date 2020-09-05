@@ -94,7 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="設定"/>
                                 <connections>
-                                    <segue destination="Lig-5n-lfb" kind="show" id="CF9-fm-z36"/>
+                                    <segue destination="8RT-jr-3ph" kind="show" id="qw8-TT-xsP"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -105,14 +105,14 @@
             <point key="canvasLocation" x="257.97101449275362" y="-183.48214285714286"/>
         </scene>
         <!--Main5-->
-        <scene sceneID="JlC-su-dbu">
+        <scene sceneID="48S-K7-rB4">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Main5.storyboard" storyboardName="Main5" id="Lig-5n-lfb" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ucr-b9-1DS"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main5.storyboard" storyboardName="Main5" id="8RT-jr-3ph" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5dE-PK-Brk"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tr0-iI-t5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BcJ-XB-alb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="-467"/>
+            <point key="canvasLocation" x="1003" y="-407"/>
         </scene>
         <!--Main1-->
         <scene sceneID="0xZ-Ib-ST9">
