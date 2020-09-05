@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Og0-04-QZv">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ih8-Pg-azs">
+            <objects>
+                <navigationController id="Og0-04-QZv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G0x-1t-ODm">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="GQE-k9-OhJ" kind="relationship" relationship="rootViewController" id="Yz9-qW-Rc7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U4V-RH-M6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-784" y="-183"/>
+        </scene>
+        <!--ホーム-->
+        <scene sceneID="epw-j3-Ydr">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVf-B3-BGz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="GQE-k9-OhJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Naw-c4-wjE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnI-hb-kq9">
+                                <rect key="frame" x="0.0" y="88.000000000000028" width="207" height="362.66666666666674"/>
+                                <color key="backgroundColor" red="0.35294117650000001" green="0.94901960780000005" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="体重計アイコン2 (1)"/>
+                                <connections>
+                                    <segue destination="2bv-2f-JRm" kind="show" id="yei-kE-saX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfU-1T-vrX">
+                                <rect key="frame" x="207" y="88.000000000000028" width="207" height="362.66666666666674"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="鉛筆のアイコン素材 (1)"/>
+                                <connections>
+                                    <segue destination="gPn-tY-7oi" kind="show" id="JnO-Vi-pyo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNA-2P-RMQ">
+                                <rect key="frame" x="0.0" y="450.66666666666674" width="207" height="362.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="グラフのアイコン"/>
+                                <connections>
+                                    <segue destination="EUg-D9-R5i" kind="show" id="04y-YI-Sus"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F86-dE-nqt">
+                                <rect key="frame" x="207" y="450.66666666666674" width="207" height="362.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="カレンダーのアイコン"/>
+                                <connections>
+                                    <segue destination="6ze-mp-olT" kind="show" id="LSd-n7-0Qo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="R0l-lZ-0s3" firstAttribute="trailing" secondItem="F86-dE-nqt" secondAttribute="trailing" id="4WP-ja-BX5"/>
+                            <constraint firstItem="UnI-hb-kq9" firstAttribute="height" secondItem="R0l-lZ-0s3" secondAttribute="height" multiplier="1:2" id="6Qm-UX-sbc"/>
+                            <constraint firstItem="SNA-2P-RMQ" firstAttribute="width" secondItem="R0l-lZ-0s3" secondAttribute="width" multiplier="1:2" id="76b-6V-7mH"/>
+                            <constraint firstItem="UnI-hb-kq9" firstAttribute="leading" secondItem="R0l-lZ-0s3" secondAttribute="leading" id="9Cr-q9-jC5"/>
+                            <constraint firstItem="R0l-lZ-0s3" firstAttribute="bottom" secondItem="SNA-2P-RMQ" secondAttribute="bottom" id="BxH-Ss-cdt"/>
+                            <constraint firstItem="BfU-1T-vrX" firstAttribute="top" secondItem="R0l-lZ-0s3" secondAttribute="top" id="JZv-vZ-zAC"/>
+                            <constraint firstItem="BfU-1T-vrX" firstAttribute="width" secondItem="R0l-lZ-0s3" secondAttribute="width" multiplier="1:2" id="NVU-xV-lqU"/>
+                            <constraint firstItem="R0l-lZ-0s3" firstAttribute="bottom" secondItem="F86-dE-nqt" secondAttribute="bottom" id="OG4-um-S6j"/>
+                            <constraint firstItem="F86-dE-nqt" firstAttribute="height" secondItem="R0l-lZ-0s3" secondAttribute="height" multiplier="1:2" id="PI1-tH-Rhg"/>
+                            <constraint firstItem="SNA-2P-RMQ" firstAttribute="leading" secondItem="Naw-c4-wjE" secondAttribute="leading" id="cEq-zF-voc"/>
+                            <constraint firstItem="SNA-2P-RMQ" firstAttribute="height" secondItem="R0l-lZ-0s3" secondAttribute="height" multiplier="1:2" id="chJ-OX-W0k"/>
+                            <constraint firstItem="BfU-1T-vrX" firstAttribute="height" secondItem="R0l-lZ-0s3" secondAttribute="height" multiplier="1:2" id="fgc-j8-nAW"/>
+                            <constraint firstItem="R0l-lZ-0s3" firstAttribute="trailing" secondItem="BfU-1T-vrX" secondAttribute="trailing" id="gaw-Qq-H7Y"/>
+                            <constraint firstItem="UnI-hb-kq9" firstAttribute="top" secondItem="R0l-lZ-0s3" secondAttribute="top" id="h1A-yh-QYS"/>
+                            <constraint firstItem="UnI-hb-kq9" firstAttribute="width" secondItem="R0l-lZ-0s3" secondAttribute="width" multiplier="1:2" id="ndH-PX-M5O"/>
+                            <constraint firstItem="F86-dE-nqt" firstAttribute="width" secondItem="R0l-lZ-0s3" secondAttribute="width" multiplier="1:2" id="uhA-7d-g42"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R0l-lZ-0s3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="faZ-0e-LFC"/>
+                    <navigationItem key="navigationItem" title="ホーム" id="czw-El-NVs">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="jqG-AV-4Yo">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tAC-tG-TTZ">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="設定"/>
+                                <connections>
+                                    <segue destination="Lig-5n-lfb" kind="show" id="CF9-fm-z36"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="257.97101449275362" y="-183.48214285714286"/>
+        </scene>
+        <!--Main5-->
+        <scene sceneID="JlC-su-dbu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main5.storyboard" storyboardName="Main5" id="Lig-5n-lfb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ucr-b9-1DS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tr0-iI-t5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="-467"/>
+        </scene>
+        <!--Main1-->
+        <scene sceneID="0xZ-Ib-ST9">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main1.storyboard" storyboardName="Main1" id="2bv-2f-JRm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Kcx-Px-NJv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yg8-aE-KcK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1004" y="-339"/>
+        </scene>
+        <!--Main2-->
+        <scene sceneID="YlT-v7-5uR">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main2.storyboard" storyboardName="Main2" id="gPn-tY-7oi" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VT5-Gq-tKZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JmO-GQ-WoK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005" y="-183"/>
+        </scene>
+        <!--Main3-->
+        <scene sceneID="Ekd-6H-qcf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main3.storyboard" storyboardName="Main3" id="EUg-D9-R5i" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cO7-2A-TmA"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnN-pE-oUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="-56"/>
+        </scene>
+        <!--Main4-->
+        <scene sceneID="WKS-6q-STa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main4.storyboard" storyboardName="Main4" id="6ze-mp-olT" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XYP-Wp-n4U"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYm-lu-hQb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="カレンダーのアイコン" width="240" height="240"/>
+        <image name="グラフのアイコン" width="240" height="240"/>
+        <image name="体重計アイコン2 (1)" width="128" height="128"/>
+        <image name="鉛筆のアイコン素材 (1)" width="128" height="128"/>
+    </resources>
+</document>

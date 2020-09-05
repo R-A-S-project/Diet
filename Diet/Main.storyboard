@@ -1,150 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GQE-k9-OhJ">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i79-kM-dJg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="epw-j3-Ydr">
+        <!--Tab Bar Controller-->
+        <scene sceneID="k6G-26-5A9">
             <objects>
-                <viewController id="GQE-k9-OhJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Naw-c4-wjE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7zB-Uo-bm1">
-                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="pTS-He-WTZ"/>
-                                </constraints>
-                                <items>
-                                    <tabBarItem selectedImage="gear" catalog="system" springLoaded="YES" id="vud-3c-gpy"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHr-rR-cpl">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qr0-qe-9bW">
-                                        <rect key="frame" x="207" y="0.0" width="207" height="362.66666666666669"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" image="鉛筆のアイコン素材 (1)"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKE-5Z-EXa">
-                                        <rect key="frame" x="0.0" y="362.66666666666674" width="207" height="362.33333333333326"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" image="グラフのアイコン"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpD-T2-7X3">
-                                        <rect key="frame" x="207" y="362.66666666666674" width="207" height="362.33333333333326"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" image="カレンダーのアイコン"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltS-ny-gVi">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="362.66666666666669"/>
-                                        <color key="backgroundColor" red="0.35294117650000001" green="0.94901960780000005" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="体重計アイコン2 (1)"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstItem="GpD-T2-7X3" firstAttribute="leading" secondItem="CKE-5Z-EXa" secondAttribute="trailing" id="1ke-a6-bLk"/>
-                                    <constraint firstAttribute="bottom" secondItem="GpD-T2-7X3" secondAttribute="bottom" id="2SX-ZB-t57"/>
-                                    <constraint firstItem="ltS-ny-gVi" firstAttribute="width" secondItem="LHr-rR-cpl" secondAttribute="width" multiplier="1:2" id="6W4-Bb-TJa"/>
-                                    <constraint firstItem="Qr0-qe-9bW" firstAttribute="width" secondItem="LHr-rR-cpl" secondAttribute="width" multiplier="1:2" id="E2W-VO-tVi"/>
-                                    <constraint firstItem="GpD-T2-7X3" firstAttribute="top" secondItem="Qr0-qe-9bW" secondAttribute="bottom" id="IZK-RY-vif"/>
-                                    <constraint firstItem="ltS-ny-gVi" firstAttribute="top" secondItem="LHr-rR-cpl" secondAttribute="top" id="SYE-se-js9"/>
-                                    <constraint firstItem="CKE-5Z-EXa" firstAttribute="leading" secondItem="LHr-rR-cpl" secondAttribute="leading" id="UqI-Z7-MIu"/>
-                                    <constraint firstItem="Qr0-qe-9bW" firstAttribute="top" secondItem="LHr-rR-cpl" secondAttribute="top" id="UvK-hd-6kE"/>
-                                    <constraint firstItem="ltS-ny-gVi" firstAttribute="leading" secondItem="LHr-rR-cpl" secondAttribute="leading" id="XC8-ge-ftf"/>
-                                    <constraint firstAttribute="trailing" secondItem="GpD-T2-7X3" secondAttribute="trailing" id="gv2-Wh-pu1"/>
-                                    <constraint firstItem="CKE-5Z-EXa" firstAttribute="width" secondItem="LHr-rR-cpl" secondAttribute="width" multiplier="1:2" id="iQt-V0-B5Y"/>
-                                    <constraint firstItem="CKE-5Z-EXa" firstAttribute="height" secondItem="LHr-rR-cpl" secondAttribute="height" multiplier="1:2" id="lMZ-tu-a5n"/>
-                                    <constraint firstItem="ltS-ny-gVi" firstAttribute="height" secondItem="LHr-rR-cpl" secondAttribute="height" multiplier="1:2" id="lqq-1x-XUt"/>
-                                    <constraint firstAttribute="trailing" secondItem="Qr0-qe-9bW" secondAttribute="trailing" id="r4a-Qu-DF6"/>
-                                    <constraint firstAttribute="bottom" secondItem="CKE-5Z-EXa" secondAttribute="bottom" id="ytK-EQ-Bgc"/>
-                                    <constraint firstItem="Qr0-qe-9bW" firstAttribute="height" secondItem="LHr-rR-cpl" secondAttribute="height" multiplier="1:2" id="zoT-wy-M6U"/>
-                                </constraints>
-                            </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thg-Km-l3z">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="7sO-lQ-ool"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="ホーム" id="v73-NJ-k2t"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="7zB-Uo-bm1" firstAttribute="top" secondItem="LHr-rR-cpl" secondAttribute="bottom" id="80c-6Z-eXl"/>
-                            <constraint firstItem="7zB-Uo-bm1" firstAttribute="trailing" secondItem="R0l-lZ-0s3" secondAttribute="trailing" id="E0K-Xy-JiX"/>
-                            <constraint firstItem="LHr-rR-cpl" firstAttribute="leading" secondItem="R0l-lZ-0s3" secondAttribute="leading" id="EkV-Cb-dQj"/>
-                            <constraint firstItem="thg-Km-l3z" firstAttribute="leading" secondItem="R0l-lZ-0s3" secondAttribute="leading" id="J2f-m9-pJY"/>
-                            <constraint firstItem="7zB-Uo-bm1" firstAttribute="leading" secondItem="R0l-lZ-0s3" secondAttribute="leading" id="O7K-eD-yuW"/>
-                            <constraint firstAttribute="bottom" secondItem="7zB-Uo-bm1" secondAttribute="bottom" id="OVU-cv-eeV"/>
-                            <constraint firstItem="LHr-rR-cpl" firstAttribute="trailing" secondItem="R0l-lZ-0s3" secondAttribute="trailing" id="QQf-Lb-Pah"/>
-                            <constraint firstItem="thg-Km-l3z" firstAttribute="trailing" secondItem="R0l-lZ-0s3" secondAttribute="trailing" id="nyD-um-EqF"/>
-                            <constraint firstItem="LHr-rR-cpl" firstAttribute="top" secondItem="thg-Km-l3z" secondAttribute="bottom" id="qS6-Nt-uk0"/>
-                            <constraint firstItem="thg-Km-l3z" firstAttribute="top" secondItem="R0l-lZ-0s3" secondAttribute="top" id="zof-DF-Ntj"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="R0l-lZ-0s3"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KVf-B3-BGz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController id="i79-kM-dJg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ORJ-Ry-CJn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Klf-6f-T5b" kind="relationship" relationship="viewControllers" id="oSD-Yk-kMK"/>
+                        <segue destination="si3-B2-gfg" kind="relationship" relationship="viewControllers" id="0R4-IG-f0g"/>
+                        <segue destination="1O6-7W-Gko" kind="relationship" relationship="viewControllers" id="wyH-dK-MgB"/>
+                        <segue destination="JzL-tC-Qtl" kind="relationship" relationship="viewControllers" id="EuU-gw-t17"/>
+                        <segue destination="Nrh-Ac-bHg" kind="relationship" relationship="viewControllers" id="FEW-18-DW5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UjR-Ah-kKl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="-163"/>
+            <point key="canvasLocation" x="-649" y="-11"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="LXg-1f-OON">
+        <!--Main0-->
+        <scene sceneID="WhN-Oa-mRu">
             <objects>
-                <viewControllerPlaceholder id="XKA-LO-Clc" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rK3-D9-gLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main0,storyboard" storyboardName="Main0" id="Klf-6f-T5b" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ENi-P4-9OT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dul-Im-cR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="-365"/>
+            <point key="canvasLocation" x="399" y="-180"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="1Kf-YB-6zr">
+        <!--Main1-->
+        <scene sceneID="W33-kH-kzD">
             <objects>
-                <viewControllerPlaceholder id="BSk-8r-mji" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bd5-7u-xjh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main1.storyboard" storyboardName="Main1" id="si3-B2-gfg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fux-G5-qXd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agq-3r-QG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="467" y="-287"/>
+            <point key="canvasLocation" x="396" y="-42"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="0d1-ow-DeZ">
+        <!--Main2-->
+        <scene sceneID="dDN-Ju-B0o">
             <objects>
-                <viewControllerPlaceholder id="otC-Mi-Kye" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WOn-VG-mWM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main2.storyboard" storyboardName="Main2" id="1O6-7W-Gko" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7lK-E9-tcR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEu-Ox-Mw4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="-215"/>
+            <point key="canvasLocation" x="360" y="56"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="ZMG-tQ-xEV">
+        <!--Main3-->
+        <scene sceneID="67N-uj-UIp">
             <objects>
-                <viewControllerPlaceholder id="eKP-Nz-3cQ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOK-Nh-GBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main3.storyboard" storyboardName="Main3" id="JzL-tC-Qtl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="cpj-fa-zOW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYb-kK-cMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="471" y="-127"/>
+            <point key="canvasLocation" x="393" y="133"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="LqL-K5-io3">
+        <!--Main4-->
+        <scene sceneID="Jxf-y8-ygE">
             <objects>
-                <viewControllerPlaceholder id="RLQ-Kr-v9b" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="siO-Kq-yqF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main4.storyboard" storyboardName="Main4" id="Nrh-Ac-bHg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="mxH-qI-V1F"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FCh-Tv-QiD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="-36"/>
+            <point key="canvasLocation" x="359" y="230"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="gear" catalog="system" width="128" height="119"/>
-        <image name="カレンダーのアイコン" width="240" height="240"/>
-        <image name="グラフのアイコン" width="240" height="240"/>
-        <image name="体重計アイコン2 (1)" width="128" height="128"/>
-        <image name="鉛筆のアイコン素材 (1)" width="128" height="128"/>
-    </resources>
 </document>
