@@ -27,4 +27,19 @@ class ViewController5: UIViewController {
     }
     */
 
+    
+    
+    @IBAction func TermsActionButton(_ sender: Any) {
+        
+        // 画面遷移
+        performSegue(withIdentifier: "Terms", sender: nil)
+    }
+    
+    
+    
+    @IBAction func StatusButtonAction(_ sender: Any) {
+        
+        // 画面遷移
+        performSegue(withIdentifier: "Status", sender: nil)
+    }
 }
