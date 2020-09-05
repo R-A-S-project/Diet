@@ -25,6 +25,7 @@
 		7E8CD9E42501F3FF004B7D3F /* Main5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8CD9E32501F3FF004B7D3F /* Main5.storyboard */; };
 		7E8CD9E62501F438004B7D3F /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CD9E52501F438004B7D3F /* ViewController5.swift */; };
 		7E8CD9EC2503769B004B7D3F /* HightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CD9EB2503769B004B7D3F /* HightViewController.swift */; };
+		7EAD8D772503CB7D00B55C0A /* TargetWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD8D762503CB7D00B55C0A /* TargetWeightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		7E8CD9E32501F3FF004B7D3F /* Main5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main5.storyboard; sourceTree = "<group>"; };
 		7E8CD9E52501F438004B7D3F /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		7E8CD9EB2503769B004B7D3F /* HightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightViewController.swift; sourceTree = "<group>"; };
+		7EAD8D762503CB7D00B55C0A /* TargetWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetWeightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		7E8CD9BF24FF6094004B7D3F = {
 			isa = PBXGroup;
 			children = (
+				7EAD8D762503CB7D00B55C0A /* TargetWeightViewController.swift */,
 				7E8CD9EB2503769B004B7D3F /* HightViewController.swift */,
 				7E8CD9CA24FF6094004B7D3F /* Diet */,
 				7E8CD9C924FF6094004B7D3F /* Products */,
@@ -182,6 +185,7 @@
 			files = (
 				08AAFD5824FF6AED00550A2F /* ViewController1.swift in Sources */,
 				7E8CD9CC24FF6094004B7D3F /* AppDelegate.swift in Sources */,
+				7EAD8D772503CB7D00B55C0A /* TargetWeightViewController.swift in Sources */,
 				7E8CD9E02501F39F004B7D3F /* ViewController4.swift in Sources */,
 				7E8CD9E62501F438004B7D3F /* ViewController5.swift in Sources */,
 				7E8CD9EC2503769B004B7D3F /* HightViewController.swift in Sources */,
