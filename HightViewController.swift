@@ -34,4 +34,17 @@ class HightViewController: UIViewController {
 
     // デフォはAction接続、Outlet接続に変更。違いはディスコの資料に
     @IBOutlet weak var HightNumber: UITextField!
+    
+    
+   
+    @IBAction func HightDecisionButtonAction(_ sender: Any) {
+        
+        // キーボードを閉じる
+        HightNumber.endEditing(true)
+        
+        // 前画面に遷移
+        _ = navigationController?.popViewController(animated: true)
+      
+    }
+
 }
