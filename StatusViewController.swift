@@ -10,10 +10,15 @@ import UIKit
 
 class StatusViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+      
+        
+        
     }
     
 
@@ -33,4 +38,21 @@ class StatusViewController: UIViewController {
         performSegue(withIdentifier: "HightSg", sender: nil)
         
     }
+    
+    
+    @IBOutlet weak var HightLabel: UILabel!
+    @IBOutlet weak var TargetWeightLabel: UILabel!
+
+  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "HightSg" {
+            let next = segue.destination as? HightViewController
+            next?.uketori = { text in
+                
+                self.HightLabel.text = text
+            }
+        }
+    }
+    
 }

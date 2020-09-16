@@ -19,6 +19,8 @@ class HightViewController: UIViewController {
         // 整数だけだとnumberPad
         // 小数点ありはdecimalPad   を使う
         self.HightNumber.keyboardType = UIKeyboardType.decimalPad
+        
+
     }
     
 
@@ -35,16 +37,25 @@ class HightViewController: UIViewController {
     // デフォはAction接続、Outlet接続に変更。違いはディスコの資料に
     @IBOutlet weak var HightNumber: UITextField!
     
+
     
    
     @IBAction func HightDecisionButtonAction(_ sender: Any) {
+        
+        guard let text = self.HightNumber.text else { return }
+        
+        if let wakaran = self.uketori {
+            
+            wakaran(text)
+        }
         
         // キーボードを閉じる
         HightNumber.endEditing(true)
         
         // 前画面に遷移
         _ = navigationController?.popViewController(animated: true)
-      
     }
 
+    var uketori: ((String) -> Void)?
+    
 }

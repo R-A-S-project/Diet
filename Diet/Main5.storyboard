@@ -184,27 +184,39 @@
                                     <segue destination="RIc-jk-Jqp" kind="show" identifier="TargetSg" id="M34-Z4-ax4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfj-zm-O2Q">
-                                <rect key="frame" x="331" y="23" width="48" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfj-zm-O2Q">
+                                <rect key="frame" x="324" y="110" width="50" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajp-ge-5ev">
+                                <rect key="frame" x="324" y="180" width="50" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dY2-lg-a0M" firstAttribute="trailing" secondItem="lfj-zm-O2Q" secondAttribute="trailing" constant="40" id="1i1-GI-mNn"/>
                             <constraint firstItem="94U-QE-D5p" firstAttribute="leading" secondItem="dY2-lg-a0M" secondAttribute="leading" id="3JE-Bf-BOF"/>
                             <constraint firstItem="fAk-ta-KXv" firstAttribute="top" secondItem="dY2-lg-a0M" secondAttribute="top" id="7gN-vA-Q2Z"/>
                             <constraint firstItem="94U-QE-D5p" firstAttribute="top" secondItem="fAk-ta-KXv" secondAttribute="bottom" id="7hH-QC-TVe"/>
                             <constraint firstItem="fAk-ta-KXv" firstAttribute="leading" secondItem="dY2-lg-a0M" secondAttribute="leading" id="Dif-iO-Q3t"/>
                             <constraint firstItem="dY2-lg-a0M" firstAttribute="trailing" secondItem="fAk-ta-KXv" secondAttribute="trailing" id="NmX-ve-b9D"/>
+                            <constraint firstItem="dY2-lg-a0M" firstAttribute="trailing" secondItem="ajp-ge-5ev" secondAttribute="trailing" constant="40" id="RtQ-jK-Qrd"/>
+                            <constraint firstItem="ajp-ge-5ev" firstAttribute="top" secondItem="fAk-ta-KXv" secondAttribute="bottom" constant="22" id="SGV-Ko-yJl"/>
                             <constraint firstItem="dY2-lg-a0M" firstAttribute="trailing" secondItem="94U-QE-D5p" secondAttribute="trailing" id="Tre-1R-01w"/>
+                            <constraint firstItem="lfj-zm-O2Q" firstAttribute="top" secondItem="dY2-lg-a0M" secondAttribute="top" constant="22" id="eKl-cK-6gT"/>
+                            <constraint firstItem="94U-QE-D5p" firstAttribute="top" secondItem="lfj-zm-O2Q" secondAttribute="bottom" constant="22" id="pZw-CC-2yD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dY2-lg-a0M"/>
                     </view>
                     <navigationItem key="navigationItem" title="基礎ステータス" id="QmV-SZ-83e"/>
                     <connections>
+                        <outlet property="HightLabel" destination="lfj-zm-O2Q" id="AQ1-Nd-DE8"/>
+                        <outlet property="TargetWeightLabel" destination="ajp-ge-5ev" id="hM6-h6-E1M"/>
                         <segue destination="Hqn-Yf-8yv" kind="show" identifier="HightSg" id="6gm-ut-eua"/>
                     </connections>
                 </viewController>
@@ -276,7 +288,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OrB-BN-SkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2706" y="-623"/>
+            <point key="canvasLocation" x="2699" y="-600"/>
         </scene>
         <!--Hight View Controller-->
         <scene sceneID="JMs-dZ-hQF">
