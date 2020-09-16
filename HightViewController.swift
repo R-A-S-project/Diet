@@ -56,6 +56,8 @@ class HightViewController: UIViewController {
         _ = navigationController?.popViewController(animated: true)
     }
 
+    
+    // StatusViewControlleから処理を受け取るクロージャのプロパティを作成
     var uketori: ((String) -> Void)?
     
 }

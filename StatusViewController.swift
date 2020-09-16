@@ -15,10 +15,6 @@ class StatusViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-      
-        
-        
     }
     
 
@@ -46,10 +42,16 @@ class StatusViewController: UIViewController {
   
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        // segueの識別子の確認
         if segue.identifier == "HightSg" {
+            
+            // 遷移先のViewControllerを取得
             let next = segue.destination as? HightViewController
+            
+            // 遷移先のプロパティに処理ごと渡す
             next?.uketori = { text in
                 
+                // 引数を使ってHightLabelの更新処理
                 self.HightLabel.text = text
             }
         }
