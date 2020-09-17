@@ -10,6 +10,7 @@ import UIKit
 
 class StatusViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,4 +34,27 @@ class StatusViewController: UIViewController {
         performSegue(withIdentifier: "HightSg", sender: nil)
         
     }
+    
+    
+    @IBOutlet weak var HightLabel: UILabel!
+    @IBOutlet weak var TargetWeightLabel: UILabel!
+
+  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // segueの識別子の確認
+        if segue.identifier == "HightSg" {
+            
+            // 遷移先のViewControllerを取得
+            let next = segue.destination as? HightViewController
+            
+            // 遷移先のプロパティに処理ごと渡す
+            next?.uketori = { text in
+                
+                // 引数を使ってHightLabelの更新処理
+                self.HightLabel.text = text
+            }
+        }
+    }
+    
 }
