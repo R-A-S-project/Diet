@@ -26,7 +26,6 @@
         <!--ホーム-->
         <scene sceneID="epw-j3-Ydr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KVf-B3-BGz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="GQE-k9-OhJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Naw-c4-wjE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -53,7 +52,7 @@
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="グラフのアイコン"/>
                                 <connections>
-                                    <segue destination="EUg-D9-R5i" kind="show" id="04y-YI-Sus"/>
+                                    <segue destination="J6m-J7-38P" kind="show" id="7as-oM-XVU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F86-dE-nqt">
@@ -61,7 +60,7 @@
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="カレンダーのアイコン"/>
                                 <connections>
-                                    <segue destination="6ze-mp-olT" kind="show" id="LSd-n7-0Qo"/>
+                                    <segue destination="Yug-hc-F6Y" kind="show" id="jrT-jy-hzp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,6 +100,7 @@
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVf-B3-BGz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="257.97101449275362" y="-183.48214285714286"/>
         </scene>
@@ -134,25 +134,25 @@
             </objects>
             <point key="canvasLocation" x="1005" y="-183"/>
         </scene>
-        <!--Main3-->
-        <scene sceneID="Ekd-6H-qcf">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Main3.storyboard" storyboardName="Main3" id="EUg-D9-R5i" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="cO7-2A-TmA"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bnN-pE-oUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1006" y="-56"/>
-        </scene>
         <!--Main4-->
-        <scene sceneID="WKS-6q-STa">
+        <scene sceneID="HJ3-rZ-EwY">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Main4.storyboard" storyboardName="Main4" id="6ze-mp-olT" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="XYP-Wp-n4U"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main4.storyboard" storyboardName="Main4" id="J6m-J7-38P" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hkF-JN-b7J"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bYm-lu-hQb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdn-iH-w29" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="72"/>
+            <point key="canvasLocation" x="1018" y="-67"/>
+        </scene>
+        <!--Main3-->
+        <scene sceneID="wVj-Rf-bHC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main3.storyboard" storyboardName="Main3" id="Yug-hc-F6Y" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0Uh-xC-bNf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJJ-AH-D11" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="31"/>
         </scene>
     </scenes>
     <resources>

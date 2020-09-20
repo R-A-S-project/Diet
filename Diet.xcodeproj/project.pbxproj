@@ -15,8 +15,8 @@
 		08AAFD5824FF6AED00550A2F /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAFD5724FF6AED00550A2F /* ViewController1.swift */; };
 		08AAFD5A24FF6AF400550A2F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAFD5924FF6AF400550A2F /* ViewController2.swift */; };
 		08AAFD5C24FF6AFB00550A2F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAFD5B24FF6AFB00550A2F /* ViewController3.swift */; };
-		08AAFD5E24FF6B8E00550A2F /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AAFD5D24FF6B8E00550A2F /* Main3.storyboard */; };
-		7C4C990960AC823B6D215603 /* Pods_Diet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BCA5E37E2EE9CA85B1D931 /* Pods_Diet.framework */; };
+		08D121A62516EC1D00BB0BDD /* Pods_Diet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BCA5E37E2EE9CA85B1D931 /* Pods_Diet.framework */; };
+		08D121AB2516F43700BB0BDD /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D121AA2516F43700BB0BDD /* Main3.storyboard */; };
 		7E45DD622507644E00B23AF6 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45DD612507644E00B23AF6 /* StatusViewController.swift */; };
 		7E8CD9CC24FF6094004B7D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CD9CB24FF6094004B7D3F /* AppDelegate.swift */; };
 		7E8CD9CE24FF6094004B7D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CD9CD24FF6094004B7D3F /* SceneDelegate.swift */; };
@@ -39,7 +39,7 @@
 		08AAFD5724FF6AED00550A2F /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		08AAFD5924FF6AF400550A2F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		08AAFD5B24FF6AFB00550A2F /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		08AAFD5D24FF6B8E00550A2F /* Main3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main3.storyboard; sourceTree = "<group>"; };
+		08D121AA2516F43700BB0BDD /* Main3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main3.storyboard; sourceTree = "<group>"; };
 		35DF29FDB4C126F8FC2731C7 /* Pods-Diet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diet.debug.xcconfig"; path = "Target Support Files/Pods-Diet/Pods-Diet.debug.xcconfig"; sourceTree = "<group>"; };
 		7E45DD612507644E00B23AF6 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		7E8CD9C824FF6094004B7D3F /* Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4C990960AC823B6D215603 /* Pods_Diet.framework in Frameworks */,
+				08D121A62516EC1D00BB0BDD /* Pods_Diet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 				08AAFD4F24FF699200550A2F /* Main0.storyboard */,
 				08AAFD5124FF699900550A2F /* Main1.storyboard */,
 				08AAFD5324FF69A400550A2F /* Main2.storyboard */,
-				08AAFD5D24FF6B8E00550A2F /* Main3.storyboard */,
+				08D121AA2516F43700BB0BDD /* Main3.storyboard */,
 				7E8CD9E12501F3C2004B7D3F /* Main4.storyboard */,
 				7E8CD9E32501F3FF004B7D3F /* Main5.storyboard */,
 				7E8CD9D424FF6095004B7D3F /* Assets.xcassets */,
@@ -196,11 +196,11 @@
 				7E8CD9D824FF6095004B7D3F /* LaunchScreen.storyboard in Resources */,
 				08AAFD5024FF699200550A2F /* Main0.storyboard in Resources */,
 				08AAFD5424FF69A400550A2F /* Main2.storyboard in Resources */,
+				08D121AB2516F43700BB0BDD /* Main3.storyboard in Resources */,
 				7E8CD9D524FF6095004B7D3F /* Assets.xcassets in Resources */,
 				08AAFD4E24FF697500550A2F /* Main.storyboard in Resources */,
 				08AAFD5224FF699900550A2F /* Main1.storyboard in Resources */,
 				7E8CD9E42501F3FF004B7D3F /* Main5.storyboard in Resources */,
-				08AAFD5E24FF6B8E00550A2F /* Main3.storyboard in Resources */,
 				7E8CD9E22501F3C2004B7D3F /* Main4.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

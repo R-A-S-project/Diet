@@ -7,5 +7,6 @@ target 'Diet' do
 
   # Pods for Diet
 pod 'FSCalendar', :git=> 'https://github.com/WenchaoD/FSCalendar'
+pod 'CalculateCalendarLogic' 
 
 end

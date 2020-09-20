@@ -15,18 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rKm-nc-zUx" customClass="FSCalendar">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rKm-nc-zUx" customClass="FSCalendar">
+                                <rect key="frame" x="0.0" y="44" width="414" height="545"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="N6S-26-7Ff" firstAttribute="bottom" secondItem="rKm-nc-zUx" secondAttribute="bottom" id="222-a5-N0g"/>
-                            <constraint firstItem="rKm-nc-zUx" firstAttribute="top" secondItem="N6S-26-7Ff" secondAttribute="top" id="ROq-0N-0Am"/>
-                            <constraint firstItem="rKm-nc-zUx" firstAttribute="leading" secondItem="N6S-26-7Ff" secondAttribute="leading" id="Tet-pG-IoA"/>
-                            <constraint firstItem="N6S-26-7Ff" firstAttribute="trailing" secondItem="rKm-nc-zUx" secondAttribute="trailing" id="o7N-EY-aWl"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="N6S-26-7Ff"/>
                     </view>
                 </viewController>

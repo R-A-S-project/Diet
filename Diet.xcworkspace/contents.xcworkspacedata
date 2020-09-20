@@ -5,9 +5,6 @@
       location = "group:Diet.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Storyboard.storyboard">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
