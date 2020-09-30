@@ -17,6 +17,14 @@ class ViewController3: UIViewController,FSCalendarDelegate,FSCalendarDataSource,
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //曜日の日本語化
+        self.calendar.calendarWeekdayView.weekdayLabels[0].text = "日"
+        self.calendar.calendarWeekdayView.weekdayLabels[1].text = "月"
+        self.calendar.calendarWeekdayView.weekdayLabels[2].text = "火"
+        self.calendar.calendarWeekdayView.weekdayLabels[3].text = "水"
+        self.calendar.calendarWeekdayView.weekdayLabels[4].text = "木"
+        self.calendar.calendarWeekdayView.weekdayLabels[5].text = "金"
+        self.calendar.calendarWeekdayView.weekdayLabels[6].text = "土"
         // デリゲートの設定
         self.calendar.dataSource = self
         self.calendar.delegate = self
