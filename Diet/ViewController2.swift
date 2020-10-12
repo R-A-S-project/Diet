@@ -10,11 +10,76 @@ import UIKit
 
 class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    //上段左
+    @IBOutlet weak var ImageView1: UIImageView! {
+        didSet {
+            // デフォルトの画像を表示する
+            ImageView1.image = UIImage(named: "imagedefault")
+        }
+    }
+    
+    //上段真ん中
+    @IBOutlet weak var ImageView2: UIImageView! {
+        didSet {
+            //デフォルトの画像を表示する
+            ImageView2.image = UIImage(named: "add-fill")
+        }
+    }
+    
+    //上段右
+    @IBOutlet weak var ImageView3: UIImageView! {
+        didSet {
+            //デフォルトの画像を表示する
+            ImageView3.image = UIImage(named: "add-fill")
+        }
+    }
+    
+    //下段左
+    @IBOutlet weak var ImageView4: UIImageView! {
+        didSet {
+            //デフォルトの画像を表示する
+            ImageView4.image = UIImage(named: "add-fill")
+        }
+    }
+    
+    //下段真ん中
+    @IBOutlet weak var ImageView5: UIImageView! {
+        didSet {
+            //デフォルトの画像を表示する
+            ImageView5.image = UIImage(named: "add-fill")
+        }
+    }
+    
+    //下段右
+    @IBOutlet weak var ImageView6: UIImageView! {
+        didSet {
+            //デフォルトの画像を表示する
+            ImageView6.image = UIImage(named: "add-fill")
+        }
+    }
+    
+    //上段左ジェスチャー
+    @IBAction func TappedImageView1(_ sender: Any) {
+    }
+    //上段真ん中ジェスチャー
+    @IBAction func TappedImageView2(_ sender: Any) {
+    }
+    //上段右ジェスチャー
+    @IBAction func TappedImageView3(_ sender: Any) {
+    }
+    //下段左ジェスチャー
+    @IBAction func TappedImageView4(_ sender: Any) {
+    }
+    //下段真ん中ジェスチャー
+    @IBAction func TappedImageView5(_ sender: Any) {
+    }
+    //下段右
+    @IBAction func TappedImageView6(_ sender: Any) {
+    }
     
     @IBOutlet weak var PickerView: UIPickerView!
-    
     let dataList = [
-        "☆", "☆☆", "☆☆☆", "☆☆☆☆", "☆☆☆☆☆"
+        "★☆☆☆☆", "★★☆☆☆", "★★★☆☆", "★★★★☆", "★★★★★"
     ]
     
     override func viewDidLoad() {

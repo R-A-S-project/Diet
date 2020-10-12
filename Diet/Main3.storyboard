@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller3-->
         <scene sceneID="FXV-FM-pdt">
             <objects>
                 <viewController id="783-kC-JFo" customClass="ViewController3" customModule="Diet" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,7 +38,7 @@
                             <constraint firstItem="K8O-CZ-DjU" firstAttribute="bottom" secondItem="Isf-au-NPF" secondAttribute="bottom" id="yIq-F5-wRd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="FZR-eL-n8w"/>
+                    <tabBarItem key="tabBarItem" title="" image="カレンダーitem" landscapeImage="カレンダーitem" selectedImage="カレンダーitem" id="FZR-eL-n8w"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="calendar" destination="Isf-au-NPF" id="ZzE-CG-ZLt"/>
@@ -50,6 +50,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="カレンダーitem" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

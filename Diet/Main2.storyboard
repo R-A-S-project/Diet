@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller2-->
         <scene sceneID="D17-Q0-74f">
             <objects>
                 <viewController id="ueX-Dz-Yzm" customClass="ViewController2" customModule="Diet" customModuleProvider="target" sceneMemberID="viewController">
@@ -239,24 +239,55 @@
                             <constraint firstItem="2Gq-Mh-ALM" firstAttribute="bottom" secondItem="9WN-T8-xjX" secondAttribute="bottom" id="v96-rS-LgG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="6JX-NK-uvh"/>
+                    <tabBarItem key="tabBarItem" title="" image="鉛筆item" landscapeImage="鉛筆item" selectedImage="鉛筆item" id="6JX-NK-uvh"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="ImageView1" destination="j0w-qx-tOi" id="I79-0F-8i7"/>
+                        <outlet property="ImageView2" destination="f67-vq-ePH" id="U01-KW-tJb"/>
+                        <outlet property="ImageView3" destination="WgV-M8-R0Z" id="fzS-yN-649"/>
+                        <outlet property="ImageView4" destination="bcB-2F-wD2" id="iXx-Sl-TYm"/>
+                        <outlet property="ImageView5" destination="mdZ-Y9-Glh" id="LbL-eY-cPP"/>
+                        <outlet property="ImageView6" destination="osx-wx-pYt" id="pMk-lI-0ip"/>
                         <outlet property="PickerView" destination="Z08-df-kBH" id="ZBw-rB-wa2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DfM-xh-TyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="yJY-ex-JUE"/>
-                <tapGestureRecognizer id="W9W-bc-Zxt"/>
-                <tapGestureRecognizer id="pgv-Tq-5Qp"/>
-                <tapGestureRecognizer id="AAz-mZ-ZfV"/>
-                <tapGestureRecognizer id="Mfi-WV-pJ1"/>
-                <tapGestureRecognizer id="ycB-mh-45k"/>
+                <tapGestureRecognizer id="yJY-ex-JUE">
+                    <connections>
+                        <action selector="TappedImageView1:" destination="ueX-Dz-Yzm" id="BkB-5m-9E8"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="W9W-bc-Zxt">
+                    <connections>
+                        <action selector="TappedImageView2:" destination="ueX-Dz-Yzm" id="cU2-tp-BRi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pgv-Tq-5Qp">
+                    <connections>
+                        <action selector="TappedImageView3:" destination="ueX-Dz-Yzm" id="W4x-iN-mqe"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AAz-mZ-ZfV">
+                    <connections>
+                        <action selector="TappedImageView4:" destination="ueX-Dz-Yzm" id="eIT-6B-nCt"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Mfi-WV-pJ1">
+                    <connections>
+                        <action selector="TappedImageView5:" destination="ueX-Dz-Yzm" id="Le8-CF-k4V"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ycB-mh-45k">
+                    <connections>
+                        <action selector="TappedImageView6:" destination="ueX-Dz-Yzm" id="bsy-FX-d3l"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="501.44927536231887" y="70.982142857142847"/>
         </scene>
     </scenes>
     <resources>
+        <image name="鉛筆item" width="30" height="30"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

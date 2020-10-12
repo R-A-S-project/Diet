@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller1-->
         <scene sceneID="2Ct-Qh-KQ5">
             <objects>
                 <viewController id="vzY-Dd-izT" customClass="ViewController1" customModule="Diet" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                                     <navigationItem title="日付（仮）" id="UHR-cE-MX6">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="tRp-es-fTx">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="iCn-g7-6iP">
-                                                <rect key="frame" x="20" y="7" width="46" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="92" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="昨日"/>
                                             </button>
@@ -66,7 +66,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BNS-pG-vab">
-                                        <rect key="frame" x="0.0" y="89" width="414" height="1"/>
+                                        <rect key="frame" x="0.0" y="89" width="414" height="0.66666666666666663"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     </view>
@@ -91,7 +91,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPv-eo-EHD">
-                                        <rect key="frame" x="0.0" y="140" width="414" height="1"/>
+                                        <rect key="frame" x="0.0" y="140" width="414" height="0.66666666666666663"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                     </view>
@@ -155,7 +155,7 @@
                             <constraint firstItem="nKf-gY-es5" firstAttribute="trailing" secondItem="jRH-p6-k5p" secondAttribute="trailing" id="si8-n1-z9U"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="jGM-9j-Uwi"/>
+                    <tabBarItem key="tabBarItem" title="" image="体重計item" landscapeImage="体重計item" selectedImage="体重計item" id="jGM-9j-Uwi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdZ-GH-j8O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -164,6 +164,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="体重計item" width="30" height="30"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -32,7 +32,7 @@
         <scene sceneID="WhN-Oa-mRu">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Main0,storyboard" storyboardName="Main0" id="Klf-6f-T5b" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ENi-P4-9OT"/>
+                    <tabBarItem key="tabBarItem" title="" image="ホームitem" landscapeImage="ホームitem" selectedImage="ホームitem" id="ENi-P4-9OT"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dul-Im-cR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,41 +42,48 @@
         <scene sceneID="W33-kH-kzD">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Main1.storyboard" storyboardName="Main1" id="si3-B2-gfg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="fux-G5-qXd"/>
+                    <tabBarItem key="tabBarItem" title="" image="体重計item" landscapeImage="体重計item" selectedImage="体重計item" id="fux-G5-qXd"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agq-3r-QG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="-42"/>
+            <point key="canvasLocation" x="401" y="-98"/>
         </scene>
         <!--Main2-->
         <scene sceneID="dDN-Ju-B0o">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Main2.storyboard" storyboardName="Main2" id="1O6-7W-Gko" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7lK-E9-tcR"/>
+                    <tabBarItem key="tabBarItem" title="" image="鉛筆item" landscapeImage="鉛筆item" selectedImage="鉛筆item" id="7lK-E9-tcR"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEu-Ox-Mw4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="399" y="48"/>
+            <point key="canvasLocation" x="399" y="-11"/>
         </scene>
         <!--Main3-->
         <scene sceneID="1w8-59-O3O">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Main3.storyboard" storyboardName="Main3" id="qb7-Gb-Dcj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="4fc-Rb-dy5"/>
+                    <tabBarItem key="tabBarItem" title="" image="カレンダーitem" landscapeImage="カレンダーitem" selectedImage="カレンダーitem" id="4fc-Rb-dy5"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAi-7U-fgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="394" y="136"/>
+            <point key="canvasLocation" x="403" y="79"/>
         </scene>
         <!--Main4-->
         <scene sceneID="Vkz-Uh-fso">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="Main4.storyboard" storyboardName="Main4" id="VX7-iH-MYl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="YLD-79-wIq"/>
+                    <tabBarItem key="tabBarItem" title="" image="グラフitem" landscapeImage="グラフitem" selectedImage="グラフitem" id="YLD-79-wIq"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5Z-6F-A3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="359" y="215"/>
+            <point key="canvasLocation" x="399" y="180"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="カレンダーitem" width="30" height="30"/>
+        <image name="グラフitem" width="30" height="30"/>
+        <image name="ホームitem" width="30" height="30"/>
+        <image name="体重計item" width="30" height="30"/>
+        <image name="鉛筆item" width="30" height="30"/>
+    </resources>
 </document>

@@ -36,7 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnI-hb-kq9">
                                 <rect key="frame" x="0.0" y="88.000000000000028" width="207" height="362.66666666666674"/>
                                 <color key="backgroundColor" red="0.35294117650000001" green="0.94901960780000005" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="体重計アイコン2 (1)"/>
+                                <state key="normal" image="体重計アイコン2"/>
                                 <connections>
                                     <segue destination="2bv-2f-JRm" kind="show" id="yei-kE-saX"/>
                                 </connections>
@@ -87,7 +87,7 @@
                             <constraint firstItem="F86-dE-nqt" firstAttribute="width" secondItem="R0l-lZ-0s3" secondAttribute="width" multiplier="1:2" id="uhA-7d-g42"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="faZ-0e-LFC"/>
+                    <tabBarItem key="tabBarItem" title="" image="ホームitem" landscapeImage="ホームitem" selectedImage="ホームitem" id="faZ-0e-LFC"/>
                     <navigationItem key="navigationItem" title="ホーム" id="czw-El-NVs">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="jqG-AV-4Yo">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="tAC-tG-TTZ">
@@ -134,7 +134,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQE-wp-09j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="-206"/>
+            <point key="canvasLocation" x="1040" y="-183"/>
         </scene>
         <!--Main4-->
         <scene sceneID="HJ3-rZ-EwY">
@@ -160,7 +160,8 @@
     <resources>
         <image name="カレンダーのアイコン" width="240" height="240"/>
         <image name="グラフのアイコン" width="240" height="240"/>
-        <image name="体重計アイコン2 (1)" width="128" height="128"/>
+        <image name="ホームitem" width="30" height="30"/>
+        <image name="体重計アイコン2" width="147" height="147"/>
         <image name="鉛筆のアイコン素材 (1)" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
