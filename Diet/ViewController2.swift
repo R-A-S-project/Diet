@@ -77,6 +77,7 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBAction func TappedImageView6(_ sender: Any) {
     }
     
+    //自己評価Picker
     @IBOutlet weak var PickerView: UIPickerView!
     let dataList = [
         "★☆☆☆☆", "★★☆☆☆", "★★★☆☆", "★★★★☆", "★★★★★"
@@ -112,4 +113,7 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         }
     
 
+    
+    
+    
 }

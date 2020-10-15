@@ -32,10 +32,10 @@
                         <viewLayoutGuide key="safeArea" id="K8O-CZ-DjU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Isf-au-NPF" firstAttribute="trailing" secondItem="K8O-CZ-DjU" secondAttribute="trailing" id="3fX-eG-lk3"/>
-                            <constraint firstItem="Isf-au-NPF" firstAttribute="leading" secondItem="K8O-CZ-DjU" secondAttribute="leading" id="AFR-Dm-vcb"/>
-                            <constraint firstItem="Isf-au-NPF" firstAttribute="top" secondItem="K8O-CZ-DjU" secondAttribute="top" id="JH9-6N-yNN"/>
-                            <constraint firstItem="K8O-CZ-DjU" firstAttribute="bottom" secondItem="Isf-au-NPF" secondAttribute="bottom" id="yIq-F5-wRd"/>
+                            <constraint firstItem="Isf-au-NPF" firstAttribute="leading" secondItem="K8O-CZ-DjU" secondAttribute="leading" id="9DV-wP-sqg"/>
+                            <constraint firstItem="Isf-au-NPF" firstAttribute="bottom" secondItem="K8O-CZ-DjU" secondAttribute="bottom" id="WIE-oo-jRm"/>
+                            <constraint firstItem="Isf-au-NPF" firstAttribute="top" secondItem="K8O-CZ-DjU" secondAttribute="top" id="l41-H0-zG3"/>
+                            <constraint firstItem="Isf-au-NPF" firstAttribute="trailing" secondItem="K8O-CZ-DjU" secondAttribute="trailing" id="yBL-vs-AZC"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="カレンダーitem" landscapeImage="カレンダーitem" selectedImage="カレンダーitem" id="FZR-eL-n8w"/>
