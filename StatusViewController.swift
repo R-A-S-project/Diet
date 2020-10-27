@@ -55,6 +55,23 @@ class StatusViewController: UIViewController {
                 self.HightLabel.text = text
             }
         }
+        
+        // segueの識別子の確認
+        if segue.identifier == "TargetS" {
+            
+            //遷移先のViewControllerを取得
+            let next = segue.description as? TargetWeightViewController
+            
+            // 遷移先のプロパティに処理後と渡す
+            next?.uketori2 = { text in
+                
+                // 引数を使ってTargetWeightLabelの更新処理
+                self.TargetWeightLabel.text = text
+            }
+        }
+        
     }
     
+  
 }
+

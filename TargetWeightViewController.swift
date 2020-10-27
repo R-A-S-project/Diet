@@ -33,10 +33,21 @@ class TargetWeightViewController: UIViewController {
     
     @IBAction func DecisionTargetButtonAction(_ sender: Any) {
         
+        guard let text = self.TargetWeightTextField.text else { return }
+        
+        if let wakaran2 = self.uketori2 {
+            
+            wakaran2(text)
+            
+        }
+        
         // キーボードを閉じる
         TargetWeightTextField.endEditing(true)
         
         // 1つ前の画面に戻る
         _ = navigationController?.popViewController(animated: true)
     }
+    
+    // StatusViewControlleから処理を受け取るクロージャのプロパティを作成
+    var uketori2: ((String) -> Void)?
 }
